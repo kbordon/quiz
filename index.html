@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>calculator</title>
+    <title>Which Free! Character Are You?</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
@@ -10,37 +10,208 @@
   <body>
     <div class="container">
 
-      <h1>Which Free! Character are you?</h1>
+      <h1 class="top">Which Free! Character Are You?</h1>
+      <form id="formColor">
+        <h2>What's your favorite color?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="haru">
+            blue
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="makoto">
+            green
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="nagisa">
+            yellow
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="rei">
+            violet
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="rin">
+            red
+          </label>
+        </div>
+        <button type="submit" class="btn">Swim free!</button>
+      </form>
 
+      <form id="formFood">
+        <h2>What's your favorite subject?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="haru">
+            mackerel
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="makoto">
+            curry
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="nagisa">
+            strawberry ice cream
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="rei">
+            sushi
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="rin">
+            meat
+          </label>
+        </div>
+        <button type="submit" class="btn">Swim free!</button>
+      </form>
 
+      <form id="formSubject">
+        <h2>What's your least favorite?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="subject" value="haru">
+            Art
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="subject" value="makoto">
+            Literature
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="subject" value="nagisa">
+            History
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="subject" value="rei">
+            Chemistry
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="subject" value="rin">
+            Math
+          </label>
+        </div>
+        <button type="submit" class="btn">Swim free!</button>
+      </form>
 
-    <div class="results">
-      <div id="haru">
+      <form id="formBadSubject">
+        <h2>What's your least favorite?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="badSubject" value="haru">
+            English
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="badSubject" value="makoto">
+            Art
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="badSubject" value="nagisa">
+            Math
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="badSubject" value="rei">
+            Music
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="badSubject" value="rin">
+            Literature
+          </label>
+        </div>
+        <button type="submit" class="btn">Swim free!</button>
+      </form>
+
+      <form id="formAnimal">
+        <h2>What's your favorite animal?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="haru">
+            dolphin
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="makoto">
+            killer whale
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="nagisa">
+            penguin
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="rei">
+            butterfly
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="rin">
+            shark
+          </label>
+        </div>
+        <button type="submit" class="btn">Swim free!</button>
+      </form>
+
+      <div class="haru">
         <img src="img/haru.jpg">
         <h2>Haru</h2>
-        <p>Graceful but occasionally fixate, and always weird as hell. Despite coming off really unapproachable, you seem to have a way with charming people with your outward sangfroid. Despite your actual eccentricities, or maybe due to them, people really seem to care for you.</p>
+        <p>Graceful, talented but weird as hell. Despite coming off really unapproachable, you seem to have a way with charming people. Even stranger, when they discover your actual eccentricities, or maybe due to them, people really come to care for you.</p>
       </div>
-      <div id="makoto">
-        <img src="img/makoto.jpg">
-        <h2>Makoto</h2>
-        <p>Super nice and really reliable, you're like the Hufflepuff of the group. Sometimes though, you might seem a littl weak-willed or a push-over since you try so hard to keep the peace and please everyone. Still, you are definitely the backbone of the group that holds everyone together.</p>
+        <div class="makoto">
+          <img src="img/makoto.jpg">
+          <h2>Makoto</h2>
+          <p>Super nice and really reliable, you're the Hufflepuff of the group. You might seem a little weak-willed or a push-over, since you try so hard to keep the peace and please everyone. Still, you are definitely the backbone of the group that holds everyone together.</p>
+        </div>
+        <div class="nagisa">
+          <img src="img/nagisa.jpg">
+          <h2>Nagisa</h2>
+          <p>Energetic and outgoing, you're a great person to hang out with, and always want to try the newest thing. It's hard to be upbeat all the time, and sometimes you use it as a cover for difficult experiences. You don't have to wear a mask though--everyone has off days.</p>
+        </div>
+        <div class="rei">
+          <img src="img/rei.jpg">
+          <h2>Rei</h2>
+          <p>You're all about precision and meticulousness, and have an appreciation for finer things. Some might consider you snobby or a little high maintenance, but it's alright to have high standards. Anyway, everyone quickly finds out: under that sleek exterior, you are a complete dweeb... in an adorable way, of course.</p>
+        </div>
+        <div class="rin">
+          <img src="img/rin.jpg">
+          <h2>Rin</h2>
+          <p>Passionate and enthusiastic, you have such a drive for life and your goals. Sometimes, it's intimidating, and you can be jerk to others while being so single-minded. Kudos to you for your determination, but don't forget about the people who appreciate you while you strive for your endeavors.</p>
+        </div>
       </div>
-      <div id="nagisa">
-        <img src="img/nagisa.jpg">
-        <h2>Nagisa</h2>
-        <p>Energetic and outgoing, you're a great person to hang out with and always want to try the newest thing. It's hard to be upbeat all the time, and even though it's instinctual, sometimes you use it as a cover. Don't forget to just take it easy once in a while.</p>
-      </div>
-      <div id="rei">
-        <img src="img/rei.jpg">
-        <h2>Haru</h2>
-        <p>You're all about precision and meticulousness, and have an appreciation for finer things. Some might consider you snobby or a little high maintenance, but it's alright to have high standards. Especially under that sleek exterior, you are a complete dweeb... in an adorable way, of course.</p>
-      </div>
-      <div id="rin">
-        <img src="img/rin.jpg">
-        <h2>Rin</h2>
-        <p>Passionate and enthusiastic, you have such a drive for life and your goals. Sometimes, it's intimidating, and you can be jerk to others while being so single-minded. Don't forget about the people who appreciate you while you strive for your endeavors.</p>
-      </div>
-    </div>
 
 
     </div>

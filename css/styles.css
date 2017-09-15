@@ -1,0 +1,11 @@
+img {
+  height: 300px;
+}
+
+#formFood, #formSubject, #formBadSubject, #formAnimal {
+  display: none;
+}
+
+.haru, .makoto, .nagisa, .rei, .rin {
+  display: none;
+}
